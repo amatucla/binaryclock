@@ -1,0 +1,381 @@
+<!DOCTYPE html> 
+<html manifest="offline.appcache.php">
+	<head> 
+		<title>Binary Clock</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /> 
+		<meta name="appsfuel_code" content="7f1e7e5bbf4cc8c"/>
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png" />
+		<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-iphone-precomposed.png" />
+		<link rel="stylesheet" href="css/jquery.mobile.binaryclock.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/custom-init.js"></script> 
+		<script src="js/jquery.mobile.min.js"></script> 
+		<script src="js/app.js"></script> 
+	</head> 
+	
+	<body class="default">
+	    <!--******************************** INICIO ****************************************-->
+		<div data-role="page" id="inicio" data-theme="a" data-fullscreen="true">
+		
+		<div data-role="header"  data-id="header" data-position="fixed" data-theme="a" data-visible-on-page-show="false">
+				<a id="options" href="#options"  data-role="button"  data-icon="gear" data-iconpos="notext" data-transition="slidedown">Options</a>
+				<h1>Binary Clock</h1>
+				<a id="info" href="#info"  data-role="button"  data-icon="info" data-iconpos="notext" data-transition="slidedown">Info</a>
+		</div>
+		
+		<div data-role="content" >	
+		<div id="table_container_v">
+		<table class="clock">
+		<tr>
+		   <th width="12%">
+		      32
+		   </th>
+		   <td width="25%">
+		      &nbsp;
+		   </td>
+		    <td width="25%">
+		      <div id="m0" class="circle circle0"></div>
+		   </td>
+		   <td width="25%">
+		      <div id="s0" class="circle circle0"></div>
+		   </td>
+		   <th width="12%">
+		      &nbsp;
+		   </th>
+		 </tr>
+		 
+		 <tr>
+		   <th>
+		      16
+		   </th>
+		   <td>
+		      <div id="h1" class="circle circle0"></div>
+		   </td>
+		     <td>
+		      <div id="m1" class="circle circle0"></div>
+		   </td>
+		    <td>
+		      <div id="s1" class="circle circle0"></div>
+		   </td>
+		 </tr>
+		 
+		 <tr>
+		   <th>
+		      8
+		   </th>
+		   <td>
+		      <div id="h2" class="circle circle0"></div>
+		   </td>
+		    <td>
+		      <div id="m2" class="circle circle0"></div>
+		   </td>
+		   <td>
+		      <div id="s2" class="circle circle0"></div>
+		   </td>
+		 </tr>
+		 
+		 <tr>
+		   <th>
+		      4
+		   </th>
+		   <td>
+		      <div id="h3" class="circle circle0"></div>
+		   </td>
+		    <td>
+		      <div id="m3" class="circle circle0"></div>
+		   </td>
+		   <td>
+		      <div id="s3" class="circle circle0"></div>
+		   </td>
+		 </tr>
+		 
+		  <tr>
+		   <th>
+		      2
+		   </th>
+		   <td>
+		      <div id="h4" class="circle circle0"></div>
+		   </td>
+		    <td>
+		      <div id="m4" class="circle circle0"></div>
+		   </td>
+		   <td>
+		      <div id="s4" class="circle circle0"></div>
+		   </td>
+		 </tr>
+		 
+		  <tr>
+		   <th>
+		      1
+		   </th>
+		   <td>
+		      <div id="h5" class="circle circle0"></div>
+		   </td>
+		    <td>
+		      <div id="m5" class="circle circle0"></div>
+		   </td>
+		   <td>
+		      <div id="s5" class="circle circle0"></div>
+		   </td>
+		 </tr>
+		 
+		  <tr>
+		   <th>
+		      &nbsp;
+		   </th>
+		   <th>
+		       <span class="decimalHourLabel">Hour</span>
+		   </td>
+		    <th>
+		      <span class="decimalMinuteLabel">Minute</span>
+		   </td>
+		   <th>
+		      <span class="decimalSecondLabel">Second</span>
+		   </td>
+		 </tr>
+		 
+		 </table>
+		 </div>
+		 
+		 <div id="table_container_h">
+		     <table class="clock">
+				
+				<tr>
+				   <th colspan="10">
+                        &nbsp;
+				   </th>
+				 </tr>
+				<tr>
+				   <th width="1%">
+					  &nbsp;
+				   </th>
+				   <td width="15%">
+					  &nbsp;
+				   </td>
+				   <td width="15%">
+					  <div id="h3" class="circle circle0"></div>
+				   </td>
+				   <td width="4%">
+					  &nbsp;
+				   </td>
+				   <td width="15%">
+					  <div id="m0" class="circle circle0"></div>
+				   </td>
+				   <td width="15%">
+					  <div id="m3" class="circle circle0"></div>
+				   </td>
+				   <td width="4%">
+					  &nbsp;
+				   </td>
+				   <td width="15%">
+					  <div id="s0" class="circle circle0"></div>
+				   </td>
+				   <td width="15%">
+					  <div id="s3" class="circle circle0"></div>
+				   </td>
+					<th width="1%">
+					  &nbsp;
+				   </th>
+				 </tr>
+				 
+				 <tr>
+				   <th>
+					  &nbsp;
+				   </th>
+				   <td>
+					  <div id="h1" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="h4" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  &nbsp;
+				   </td>
+				   <td>
+					  <div id="m1" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="m4" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  &nbsp;
+				   </td>
+				   <td>
+					  <div id="s1" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="s4" class="circle circle0"></div>
+				   </td>
+					<th>
+					  &nbsp;
+				   </th>
+				 </tr>
+				 
+				  <tr>
+				   <th>
+					  &nbsp;
+				   </th>
+				   <td>
+					  <div id="h2" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="h5" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  &nbsp;
+				   </td>
+				   <td>
+					  <div id="m2" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="m5" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  &nbsp;
+				   </td>
+				   <td>
+					  <div id="s2" class="circle circle0"></div>
+				   </td>
+				   <td>
+					  <div id="s5" class="circle circle0"></div>
+				   </td>
+					<th>
+					  &nbsp;
+				   </th>
+				 </tr>
+				 
+				 <tr>
+				   <th>
+					  &nbsp;
+				   </th>
+				   <th colspan="2">
+					  <span class="decimalHourLabel">Hour</span>
+				   </th>
+				   <th>
+					  &nbsp;
+				   </th>
+					<th colspan="2">
+					   <span class="decimalMinuteLabel">Minute</span>
+				   </th>
+				   <th>
+					  &nbsp;
+				   </th>
+				   <th colspan="2">
+					   <span class="decimalSecondLabel">Second</span>
+				   </th>
+				   <th>
+					  &nbsp;
+				   </th>
+				 </tr>
+				 
+				</table>
+		 </div>
+		 
+		 </div>
+		 
+		</div><!-- /page -->	
+		
+		<!--******************************** OPTIONS ****************************************-->
+		<div data-role="page" id="options" data-theme="a">
+			
+			<div data-role="header"  data-id="header_options" data-theme="a" >
+				<h1>Settings</h1>
+			</div>
+
+			<div data-role="content">	
+				<div style="text-align:center; with:100%">
+						<form>
+						<div class="config_field" id="config_theme">
+						<label>The color &amp; the shape</label>
+						<fieldset data-role="controlgroup" data-type="horizontal" data-mini="false">
+							<label for="select1">Select A</label>
+							<select name="select1" id="select1" data-mini="false">
+							    <option value="default" selected="selected">default</option>
+							    <option value="gamewatch">game & watch</option>
+							    <option value="graylime">graylime</option>
+							    <option value="matte">matte</option>
+							    <option value="tron">tron</option>
+							    <option value="cleverdj">cleverdj</option>
+							    <option value="fxosnews">fxos news</option>
+							    <option value="phosphor">phosphor</option>
+							    <option value="beige">beige</option>
+								<option value="blue">blue</option>
+								<option value="fuchsia">fuchsia</option>
+								<option value="gold">gold</option>
+								<option value="gray">gray</option>
+								<option value="greenyellow">greenyellow</option>
+								<option value="lime">lime</option>
+								<option value="orange">orange</option>
+								<option value="pink">pink</option>
+								<option value="red">red</option>
+								<option value="white">white</option>
+								<option value="yellow">yellow</option>
+							</select>
+							<label for="select2">Select B</label>
+							<select name="select2" id="select2" data-mini="false">
+								<option value="circles" selected="selected">circles</option>
+								<option value="rounded">rounded</option>
+								<option value="squares">squares</option>
+							</select>
+						</fieldset>
+						</div>
+						
+						<div class="config_field">
+							<label for="flip-1">Show decimal time on labels</label>
+							<select name="flip-1" id="flip-1" data-role="slider">
+								<option value="0">Off</option>
+								<option value="1">On</option>
+							</select>
+						</div>
+			
+					</form>
+				</div>
+			</div>
+			
+			<div data-role="footer" data-position="fixed" data-id="footer_options" >
+					<h1><a class="aceptar" href="#inicio" data-role="button" data-mini="false" data-transition="slidedown" data-direction="reverse">Back to main</a></h1>
+			</div>
+
+		</div><!-- /page -->	
+		
+		
+		<!--******************************** INFO ****************************************-->
+		<div data-role="page" id="info" data-theme="a">
+			
+			<div data-role="header"  data-id="header_info" data-position="fixed" data-theme="a" >
+				<h1>Info</h1>
+			</div>
+
+			<div data-role="content">
+				<h3>Binary Clock</h3>	
+				<h5>A cool and geek binary clock.</h5>
+				<h4>Version 1.1</h4>
+				
+				<p><i>'There are 10 kinds of people in the world: Those who understand binary and those who dont .'</i></p>
+
+				<p>Show the world how geek you are with this cool binary clock.</p>
+				
+				<h4>Features</h4>
+				<ul>
+					<li>Supports vertical and horizontal device orientation.</li>
+					<li>Theme configuration (Color & Shape).</li>					
+					<li>Show decimal time on labels (help for nerds).</li>
+				</ul>
+				
+			</div>
+			
+			<div data-role="footer" data-position="fixed" data-id="footer_info" >
+					<h1><a class="aceptar" href="#inicio" data-role="button" data-mini="false" data-transition="slidedown" data-direction="reverse">Back to main</a></h1>
+			</div>
+
+		</div><!-- /page -->	
+		
+	
+	</body>
+</html>
+

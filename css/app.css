@@ -1,0 +1,543 @@
+body  {
+   color: #EEE;
+   padding: 0;
+   margin: 0;
+}
+
+div.config_field{
+  /*width:50%;*/
+  padding:10px 0;
+  /*float:left;*/
+  min-width:290px;
+}
+
+
+div#inicio div.ui-content {
+   padding: 0;
+}
+
+table#headertable a.ui-btn 
+{
+   margin: 0.2em 0;
+}
+
+table#headertable {
+   width:100%;
+}
+
+#table_container_v table.clock {
+   margin: auto;
+   width: 100%;
+   max-width: 540px;
+   border-spacing:0;
+   border-collapse:collapse;
+    /* border: 1px solid YELLOW; */
+}
+
+#table_container_v table.clock td{
+   text-align: center;
+   /* border: 1px solid YELLOW; */
+}
+
+#table_container_v table.clock th{
+   text-align: center;
+   font-weight: normal;
+   font-size: 14px;
+  /* border: 1px solid YELLOW; */
+}
+
+
+#table_container_h table.clock {
+   margin: auto;
+   width: 100%;
+   max-width: 480px;
+   border-spacing:0;
+   border-collapse:collapse;
+    /* border: 1px solid YELLOW; */
+}
+
+#table_container_h table.clock td{
+   text-align: center;
+   /* border: 1px solid YELLOW; */
+}
+
+#table_container_h table.clock th{
+   text-align: center;
+   font-weight: normal;
+   font-size: 14px;
+   /* border: 1px solid YELLOW; */
+}
+
+
+div.circle {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+    
+div.circle0 {
+  
+  /* border: 1px solid #EEE;*/
+}
+
+
+a#options {
+   margin: 0;
+}
+
+#table_container_h {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 480px;
+  height: 280px;
+}
+
+#table_container_v {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 320px;
+  height: 440px;
+}
+
+.circles div.circle {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1px;
+  width: 56px;
+  height: 56px;
+}
+
+.rounded div.circle {
+  border-radius: 30%;
+  display: inline-block;
+  margin: 1px;
+  width: 56px;
+  height: 56px;
+}
+
+.squares div.circle {
+  border-radius: 5%;
+  display: inline-block;
+  margin: 1px;
+  width: 56px;
+  height: 56px;
+}
+
+
+/*****  DEFAULT  ****************************************************************/
+.default #table_container_h, 
+.default #table_container_v {
+  color: #555;
+}
+
+.default .circles div.circle,
+.default .rounded div.circle,
+.default .squares div.circle  {
+	border: 1px solid #555;
+}
+
+.default div#inicio {
+    background: #111111;
+}
+
+.default div.circle1 {
+  background: CYAN;
+}
+
+/*****  BEIGE  ****************************************************************/
+.beige #table_container_h, 
+.beige #table_container_v {
+  color: #555;
+}
+
+.beige .circles div.circle,
+.beige .rounded div.circle,
+.beige .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.beige div#inicio {
+    background: #111111;
+}
+
+.beige div.circle1 {
+  background: BEIGE;
+}
+
+/*****  BLUE  ****************************************************************/
+.blue #table_container_h, 
+.blue #table_container_v {
+  color: #555;
+}
+
+.blue .circles div.circle,
+.blue .rounded div.circle,
+.blue .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.blue div#inicio {
+    background: #111111;
+}
+
+.blue div.circle1 {
+  background: MEDIUMBLUE;
+}
+
+/*****  FUCHSIA  ****************************************************************/
+.fuchsia #table_container_h, 
+.fuchsia #table_container_v {
+  color: #555;
+}
+
+.fuchsia .circles div.circle,
+.fuchsia .rounded div.circle,
+.fuchsia .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.fuchsia div#inicio {
+    background: #111111;
+}
+
+.fuchsia div.circle1 {
+  background: FUCHSIA;
+}
+
+/*****  GOLD  ****************************************************************/
+.gold #table_container_h, 
+.gold #table_container_v {
+  color: #555;
+}
+
+.gold .circles div.circle,
+.gold .rounded div.circle,
+.gold .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.gold div#inicio {
+    background: #111111;
+}
+
+.gold div.circle1 {
+  background: GOLD;
+}
+
+/*****  GRAY  ****************************************************************/
+.gray #table_container_h, 
+.gray #table_container_v {
+  color: #555;
+}
+
+.gray .circles div.circle,
+.gray .rounded div.circle,
+.gray .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.gray div#inicio {
+    background: #111111;
+}
+
+.gray div.circle1 {
+  background: DIMGRAY;
+}
+
+/*****  GREENYELLOW  ****************************************************************/
+.greenyellow #table_container_h, 
+.greenyellow #table_container_v {
+  color: #555;
+}
+
+.greenyellow .circles div.circle,
+.greenyellow .rounded div.circle,
+.greenyellow .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.greenyellow div#inicio {
+    background: #111111;
+}
+
+.greenyellow div.circle1 {
+  background: GREENYELLOW;
+}
+
+/*****  LIME  ****************************************************************/
+.lime #table_container_h, 
+.lime #table_container_v {
+  color: #555;
+}
+
+.lime .circles div.circle,
+.lime .rounded div.circle,
+.lime .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.lime div#inicio {
+    background: #111111;
+}
+
+.lime div.circle1 {
+  background: LIME;
+}
+
+/*****  ORANGE  ****************************************************************/
+.orange #table_container_h, 
+.orange #table_container_v {
+  color: #555;
+}
+
+.orange .circles div.circle,
+.orange .rounded div.circle,
+.orange .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.orange div#inicio {
+    background: #111111;
+}
+
+.orange div.circle1 {
+  background: ORANGE;
+}
+
+/*****  PINK  ****************************************************************/
+.pink #table_container_h, 
+.pink #table_container_v {
+  color: #555;
+}
+
+.pink .circles div.circle,
+.pink .rounded div.circle,
+.pink .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.pink div#inicio {
+    background: #111111;
+}
+
+.pink div.circle1 {
+  background: PINK;
+}
+
+/*****  RED  ****************************************************************/
+.red #table_container_h, 
+.red #table_container_v {
+  color: #555;
+}
+
+.red .circles div.circle,
+.red .rounded div.circle,
+.red .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.red div#inicio {
+    background: #111111;
+}
+
+.red div.circle1 {
+  background: RED;
+}
+
+/*****  WHITE  ****************************************************************/
+.white #table_container_h, 
+.white #table_container_v {
+  color: #555;
+}
+
+.white .circles div.circle,
+.white .rounded div.circle,
+.white .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.white div#inicio {
+    background: #111111;
+}
+
+.white div.circle1 {
+  background: WHITE;
+}
+
+/*****  YELLOW  ****************************************************************/
+.yellow #table_container_h, 
+.yellow #table_container_v {
+  color: #555;
+}
+
+.yellow .circles div.circle,
+.yellow .rounded div.circle,
+.yellow .squares div.circle  {
+  border: 1px solid #555;
+}
+
+.yellow div#inicio {
+    background: #111111;
+}
+
+.yellow div.circle1 {
+  background: YELLOW;
+}
+
+/*****  GAME & WATCH  ****************************************************************/
+.gamewatch #table_container_h, 
+.gamewatch #table_container_v {
+  color: #333a40;
+}
+
+.gamewatch .circles div.circle,
+.gamewatch .rounded div.circle,
+.gamewatch .squares div.circle {
+  border: 1px solid #333a40;
+}
+
+.gamewatch div#inicio {
+    background: #8c9f8c;
+}
+
+.gamewatch div.circle1 {
+  background: #333a40;
+}
+
+/*****  GRAYLIME  ****************************************************************/
+.graylime #table_container_h,
+.graylime #table_container_v {
+  color: #666;
+}
+
+.graylime .circles div.circle,
+.graylime .rounded div.circle,
+.graylime .squares div.circle {
+  border: 1px solid #555;
+}
+
+.graylime div#inicio {
+    background: #333333;
+}
+
+.graylime div.circle1 {
+  background: #ADFF2F;
+}
+
+/*****  MATTE  ****************************************************************/
+.matte #table_container_h,
+.matte #table_container_v {
+  color: #DEB968;
+}
+
+.matte .circles div.circle,
+.matte .rounded div.circle,
+.matte .squares div.circle {
+  border: 1px solid #DEB968;
+}
+
+.matte div#inicio {
+    background: #FFDD97;
+}
+
+.matte div.circle1 {
+  background: #7F6E4C;
+}
+
+/*****  TRON  ****************************************************************/
+.tron #table_container_h,
+.tron #table_container_v {
+  color: #DF740C;
+}
+
+.tron .circles div.circle,
+.tron .rounded div.circle,
+.tron .squares div.circle {
+  border: 1px solid #555;
+}
+
+.tron div#inicio {
+    background: #0C141F;
+}
+
+.tron div.circle1 {
+  background: #6FC3DF;
+}
+
+/*****  CLEVERDJ  ****************************************************************/
+.cleverdj #table_container_h,
+.cleverdj #table_container_v {
+  color: #f4dd1d;
+}
+
+.cleverdj .circles div.circle,
+.cleverdj .rounded div.circle,
+.cleverdj .squares div.circle {
+  border: 1px solid #555;
+}
+
+.cleverdj div#inicio {
+    background: #171717;
+}
+
+.cleverdj div.circle1 {
+  background: #f4dd1d;
+}
+
+/*****  FXOSNEWS  ****************************************************************/
+.fxosnews #table_container_h,
+.fxosnews #table_container_v {
+  color: #EEEEEE;
+}
+
+.fxosnews .circles div.circle,
+.fxosnews .rounded div.circle,
+.fxosnews .squares div.circle {
+  border: 1px solid #555;
+}
+
+.fxosnews div#inicio {
+    background: #003652;
+}
+
+.fxosnews div.circle1 {
+  background: #EEEEEE;
+}
+
+/*****  PHOSPHOR  ****************************************************************/
+.phosphor #table_container_h,
+.phosphor #table_container_v {
+  color: #006600;
+}
+
+.phosphor .circles div.circle,
+.phosphor .rounded div.circle,
+.phosphor .squares div.circle {
+  border: 1px solid #006600;
+}
+
+.phosphor div#inicio {
+    background: #000000;
+}
+
+.phosphor div.circle1 {
+  background: #00FF00;
+}
+
+/*************************************************************************************/
+
+
+
+
+
+
+
