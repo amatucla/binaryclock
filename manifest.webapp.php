@@ -7,7 +7,7 @@ header('Content-type: application/x-web-app-manifest+json');
     "launch_path": "/index.html",
     "description": "A cool and geek binary clock for Firefox OS",
     "developer": {
-        "name": "Antonio Maturana",
+        "name": "amatucla",
         "url": "http://www.palasaka.com"
     },
 	"icons": { 
